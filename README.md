@@ -3,6 +3,7 @@
 ## Project Structure
 
 **/raw_data**
+
 *This folder is for original, unmodified data. Each subfolder refers to the source.*
 
 /raw_data/aa
@@ -26,6 +27,7 @@ The Snow Pilot xml schema has been replaced by caaml, but that is much more diff
 all_MT.xml - all the snow profile data that exists from Montana.
 
 **/data_prep**
+
 *This folder is for handling the raw data. Any scripts and their output are stored here.*
 
 /data_prep/pkl
