@@ -32,3 +32,56 @@ all_MT.xml - all the snow profile data that exists from Montana.
 
 /data_prep/pkl
 *The output of data prep scripts should be placed here. These pickles should be ready for an analysis script to ingest.*
+
+## Data Dictionary
+
+### avtype
+L Loose-snow avalanche
+WL Wet loose-snow avalanche
+SS Soft slab avalanche
+HS Hard slab avalanche
+WS Wet slab avalanche
+I Ice fall or avalanche
+SF Slush flow
+C Cornice fall (w/o additional avalanche)
+R Roof avalanche
+U Unknown
+
+### avtrigger
+NATURAL OR SPONTANEOUS
+N Natural trigger
+NC Cornice fall
+NE Earthquake
+NI Ice fall
+
+NL Avalanche triggered by loose snow ava-
+lanche (Figure 3.4)
+
+NS Avalanche triggered by slab avalanche
+NR Rock fall
+NO Unclassified natural trigger (specify
+
+in comments)
+ARTIFICIAL TRIGGERS: EXPLOSIVE
+AA Artillery
+AE An explosive thrown or placed on or
+under the snow surface by hand
+
+AL Avalauncher
+AB An explosive detonated above the
+
+snow surface (air blast)
+
+AC Cornice fall triggered by human or
+
+explosive action
+AX Gas exploder
+AH Explosives placed via helicopter
+
+AP Pre-placed, remotely detonated explo-
+sive charge
+
+ARTIFICIAL TRIGGERS: MISCELLANEOUS
+AW Wildlife
+AU Unknown artificial trigger
+AO Unclassified artificial
